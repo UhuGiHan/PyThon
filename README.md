@@ -6,3 +6,6 @@
 5. Sao chép code mẫu vào các file tương ứng trong dự án.
 6. Chạy server Django: python manage.py runserver
 7. Truy cập http://localhost:8000/ để xem trang web blog.
+
+
+------Test Nhánh mới--------

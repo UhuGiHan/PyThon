@@ -1,0 +1,149 @@
+[
+    {
+        "model": "myapp.customuser",
+        "pk": 1,
+        "fields": {
+            "username": "john_doe_1",
+            "email": "john1@example.com",
+            "password": "123456",
+            "first_name": "John",
+            "last_name": "Doe"
+        }
+    },
+    {
+        "model": "myapp.customuser",
+        "pk": 2,
+        "fields": {
+            "username": "john_doe_2",
+            "email": "john2@example.com",
+            "password": "123456",
+            "first_name": "Jane",
+            "last_name": "Smith"
+        }
+    },
+    {
+        "model": "myapp.customuser",
+        "pk": 3,
+        "fields": {
+            "username": "john_doe_3",
+            "email": "john3@example.com",
+            "password": "123456",
+            "first_name": "Jake",
+            "last_name": "White"
+        }
+    },
+    {
+        "model": "myapp.customuser",
+        "pk": 4,
+        "fields": {
+            "username": "john_doe_4",
+            "email": "john4@example.com",
+            "password": "123456",
+            "first_name": "Tom",
+            "last_name": "Brown"
+        }
+    },
+    {
+        "model": "myapp.customuser",
+        "pk": 5,
+        "fields": {
+            "username": "john_doe_5",
+            "email": "john5@example.com",
+            "password": "123456",
+            "first_name": "Emily",
+            "last_name": "Black"
+        }
+    },
+    
+    {
+        "model": "myapp.categories",
+        "pk": 1,
+        "fields": {
+            "name": "Technology",
+            "description": "Posts about technology"
+        }
+    },
+    {
+        "model": "myapp.categories",
+        "pk": 2,
+        "fields": {
+            "name": "Lifestyle",
+            "description": "Posts about lifestyle"
+        }
+    },
+    {
+        "model": "myapp.categories",
+        "pk": 3,
+        "fields": {
+            "name": "Health",
+            "description": "Posts about health"
+        }
+    },
+    {
+        "model": "myapp.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Business",
+            "description": "Posts about business"
+        }
+    },
+    {
+        "model": "myapp.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Education",
+            "description": "Posts about education"
+        }
+    },
+    
+    {
+        "model": "myapp.post",
+        "pk": 1,
+        "fields": {
+            "title": "Tech Trends 2024",
+            "content": "The latest trends in technology for 2024.",
+            "author": 1,
+            "category": 1
+        }
+    },
+    {
+        "model": "myapp.post",
+        "pk": 2,
+        "fields": {
+            "title": "Healthy Eating Habits",
+            "content": "How to maintain healthy eating habits.",
+            "author": 2,
+            "category": 3
+        }
+    },
+    {
+        "model": "myapp.post",
+        "pk": 3,
+        "fields": {
+            "title": "Lifestyle Choices",
+            "content": "How lifestyle choices affect your health.",
+            "author": 3,
+            "category": 2
+        }
+    },
+    {
+        "model": "myapp.post",
+        "pk": 4,
+        "fields": {
+            "title": "The Future of Business",
+            "content": "The future of business in the digital age.",
+            "author": 4,
+            "category": 4
+        }
+    },
+    {
+        "model": "myapp.post",
+        "pk": 5,
+        "fields": {
+            "title": "Education and Technology",
+            "content": "How technology is shaping the future of education.",
+            "author": 5,
+            "category": 5
+        }
+    }
+]

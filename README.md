@@ -7,6 +7,4 @@
 6. Chạy server Django: python manage.py runserver
 7. Truy cập http://localhost:8000/ để xem trang web blog.
 
-0306221193
-Châu
 ------Test Nhánh mới--------
